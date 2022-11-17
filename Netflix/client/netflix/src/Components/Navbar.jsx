@@ -17,13 +17,22 @@ const Navbar = () => {
                 <span>New & Popular</span>
                 <span>My List</span>
             </div>
+
             <div className='right ' >
                 <Search className='icon'/>
-                <span KID>
+                <span>AYUSH</span>
                   < Notifications className='icon'/>
                   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.2xCvKg3PXCG0cDUHKYXJBgHaEo%26pid%3DApi&f=1&ipt=3e3d3be3b94bc77ca05c1271829fb63512225c3824de848d589f73c010f63da9&ipo=images" alt="" />
-                  <ArrowDropDown className='icon'/>
-                </span>
+                  
+                  <div className='profile'>
+                    <ArrowDropDown className='icon'/>
+                    <div className="options">
+                      <span>Settings</span>
+                      <span>Log out</span>
+
+                    </div>
+                  </div>
+                
             </div>
         </div>
     </div>

@@ -40,6 +40,20 @@
             object-fit: cover;
             cursor: pointer;
             }
+
+            .profile{
+                .options{
+                    display: none;
+                }
+
+                //remember sudo class for hover
+                &:hover{
+                    .options{
+                        display: flex;
+                    }
+                    
+                }
+            }
         }
 
         
