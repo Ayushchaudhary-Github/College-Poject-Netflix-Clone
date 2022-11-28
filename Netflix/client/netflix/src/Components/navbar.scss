@@ -6,6 +6,9 @@
     width: 100%;
     z-index: 999;
     background: linear-gradient(to top, transparent 0%,rgb(0,0,0,0.3) 50%);
+    &.scrolled{
+        background-color: black;
+    }
 
     .Container{
         padding: 0px 50px ;
@@ -52,6 +55,7 @@
                 .options{
                     display: none;
                     background-color: var(--main-color);
+                    border-radius: 5px;
                 }
 
                 span{
