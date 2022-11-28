@@ -9,11 +9,12 @@ const Navbar = () => {
 
   window.onscroll = () => {
     setIsScrolled(window.pageYOffset === 0 ? false : true);
-    return() =>(window.onscroll = null); 
+    return () => (window.onscroll = null);
   };
 
-  console.log(isScrolled);
-    return (
+  //for test the navbar
+  // console.log(isScrolled);
+  return (
     <div className={isScrolled ? "Navbar scrolled" : "Navbar"}>
 
       <div className='Container'>
