@@ -38,10 +38,9 @@ const Navbar = () => {
             <div className="options">
               <span>Settings</span>
               <span>Log out</span>
-
             </div>
+            
           </div>
-
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ export default function Featured() {
 
                 <span className="desc">
                 Return to a world of two realities: one, everyday life;
-                 the other, what lies behind it. 
+                the other, what lies behind it. 
                 To find out if his reality is a construct, to 
                 truly know himself, Mr. Anderson will have to choose 
                 to follow the white rabbit once more.
@@ -28,7 +28,7 @@ export default function Featured() {
 
                     <button className="more">
                         <InfoOutlined />
-                        <span >info</span>
+                        <span >Info</span>
                     </button>
                 </div>
 

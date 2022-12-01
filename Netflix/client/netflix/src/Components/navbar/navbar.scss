@@ -1,3 +1,4 @@
+// For the changes in the navbar
 .Navbar{
     color: white;
     font-size: 14px;
@@ -51,6 +52,7 @@
             cursor: pointer;
             }
 
+            //pfofile changes 
             .profile{
                 .options{
                     display: none;
@@ -70,12 +72,9 @@
                         flex-direction: column;
                         position: absolute;
                     }
-                    
                 }
             }
         }
-
-        
     }
 
 }
