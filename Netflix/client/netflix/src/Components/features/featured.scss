@@ -2,11 +2,39 @@
     height: 90vh;
     position: relative;
 
+    //category box for selecting any genra you want to watch
+   .category{
+        position: absolute;
+        top:80px;
+        left: 80px;
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+
+        select{
+            cursor: pointer;
+            background: #000;
+            border: 1px solid white
+
+        }
+        }
+
     img{
         width: 100%;
         height: 115%;
         object-fit: cover;
+    }
 
+    //foe the info about movie
+    .info{
+        width: 30%;
+        position:absolute;
+        left: 50px;
+        bottom: 10px;
+        color: rgb(255, 254, 254);
+        // font: bold;
     }
 
     .desc{
@@ -27,6 +55,7 @@
             margin-right: 10px ;
             cursor: pointer;
 
+            //for making navbar color changes
             &.play{
                 background-color: white;
                 color: var(--main-color);
@@ -39,11 +68,5 @@
 
     }
 
-    .info{
-        width: 30%;
-        position:absolute;
-        left: 50px;
-        bottom: 100px;
-        color: white;
-    }
+
 }
