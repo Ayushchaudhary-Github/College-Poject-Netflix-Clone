@@ -2,6 +2,7 @@ import {
   ArrowBackIosOutlined,
   ArrowForwardIosOutlined,
 } from "@material-ui/icons";
+
 import { useRef, useState } from "react";
 import ListItem from "../listitem/ListItem";
 import "./list.scss";
@@ -51,7 +52,7 @@ export default function List() {
           className="sliderArrow right"
           onClick={() => handleClick("right")}
         />
-        
+
       </div>
     </div>
   );

@@ -13,7 +13,6 @@ const Home = () => {
       <List />
       <List />
       <List />
-
     </div>
 
     // <div class="preloader" style="display: none;">
